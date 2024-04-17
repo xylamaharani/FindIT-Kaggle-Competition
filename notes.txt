@@ -1,2 +1,1 @@
-jumlah_anak_balita -- yang NULL bisa diganti 0?
-jumlah_anak_remaja -- yang NULL bisa diganti 0?
+jumlah anak -- use MEAN to fillna
