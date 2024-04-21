@@ -1,1 +1,33 @@
-jumlah anak -- use MEAN to fillna
+## PREPROCESSED BELANJA PER PENDAPATAN RANGE
+
+RFC - OPTUNA
+Best trial:
+  Value: 0.7034281871641975
+  Params: 
+    n_estimators: 267
+    max_depth: 15
+    min_samples_split: 3
+    min_samples_leaf: 1
+    bootstrap: False
+Mean Accuracy: 0.7034257855118607
+
+
+RFC - GRID SEARCH
+Best hyperparameters are: {'bootstrap': False, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Best score is: 0.700290339102238
+
+XGB - OPTUNA
+Best trial:
+  Value: 0.7338224698592632
+  Params: 
+    n_estimators: 645
+    max_depth: 8
+    learning_rate: 0.03138063848410948
+    subsample: 0.9035248979831413
+    colsample_bytree: 0.8065702937861967
+    min_child_weight: 1
+    gamma: 0.024392013423410172
+    reg_alpha: 0.0728154467283286
+    reg_lambda: 0.06287723450417873
+    max_delta_step: 2.0483022652643137
+Mean Accuracy: 0.7338224698592632
